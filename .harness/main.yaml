@@ -36,13 +36,13 @@ pipeline:
                     environmentVariables:
                       - name: REPO_URL
                         type: String
-                        value: https://github.com/sudofaizan/spring-harness.git
+                        value: https://github.com/sagar94bl/spring-harness.git
                       - name: SQ_TOKEN
                         type: Secret
                         value: SQ_TOKEN
                       - name: SONAR_HOST
                         type: String
-                        value: 98.81.243.26
+                        value: 3.144.109.205
                     outputVariables: []
                   timeout: 10m
         tags: {}
@@ -74,7 +74,7 @@ pipeline:
                         value: SQ_TOKEN
                       - name: SONAR_HOST
                         type: String
-                        value: 98.81.243.26
+                        value: 3.144.109.205
                     outputVariables: []
                   timeout: 10m
         tags: {}
@@ -304,7 +304,7 @@ pipeline:
                   name: Email_1
                   identifier: Email_1
                   spec:
-                    to: faizii.official@gmail.com
+                    to: sagar09bl@gmail.com
                     cc: ""
                     subject: Success deploy
                     body: |-
